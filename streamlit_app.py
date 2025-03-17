@@ -20,7 +20,7 @@ st.title("Farmers' Income and Crop Yield Prediction")
 # Dropdown to select model
 model_choice = st.selectbox("Select a Model:", ["Income After Loan", "Crop Yield After Loan"])
 
-features = st.text_input("Enter numerical values (comma-separated):")
+features = st.text_input("Enter numerical values (Don't add a comma):")
 
 if st.button("Predict"):
     try:
